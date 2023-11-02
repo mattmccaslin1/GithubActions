@@ -33,7 +33,7 @@ namespace GithubActionsLab
         // Implement 3 tests per operation, following a similar pattern as above
         [Test]
         public void Subtract_Valid() {
-            Assert.AreEqual(3, Program.Subtract("9", "5"));
+            Assert.AreEqual(3, Program.Subtract("8", "5"));
             Assert.AreEqual(5, Program.Subtract("10", "5"));
             Assert.AreEqual(7, Program.Subtract("20", "13"));
         }
